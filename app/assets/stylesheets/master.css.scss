@@ -4,6 +4,10 @@
   clear:both;
 }
 
+.body {
+  font-family: 'quicksandregular', sans-serif;
+}
+
 /* Logo Circle CSS */
 .circle {
     font-weight:bold;
@@ -27,7 +31,7 @@
 
 /* Navbar Slogan */
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'quicksanditalic', sans-serif;
   font-style: italic;
   padding-top: 26px;
 }
@@ -35,6 +39,7 @@
 /* Navbar Links */
 .links {
   padding-top:26px;
+  font-family: 'quicksandregular', sans-serif;
   a {
     color: black;
     font-size: 25px;
@@ -48,4 +53,16 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'quicksandregular', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-family: 'quicksandregular', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
 }
