@@ -29,6 +29,10 @@
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
+.logo:hover {
+  text-decoration: none;
+}
+
 /* Navbar Slogan */
 .slogan {
   font-family: 'quicksanditalic', sans-serif;
@@ -43,7 +47,6 @@
   a {
     color: black;
     font-size: 25px;
-    border-bottom: 1px solid #f7901e;
   }
 }
 
@@ -65,4 +68,40 @@ h2 {
   font-family: 'quicksandregular', sans-serif;
   font-weight: 600;
   letter-spacing: -1.5px;
+}
+
+/* Sticky Footer CSS */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f7901e;
+  padding-top: 10px;
+  a {
+    color: white;
+    font-family: 'quicksanditalic', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+  }
+}
+
+.text-right {
+  text-align: right;
+}
+
+.footer-blurb {
+  font-family: 'quicksanditalic', sans-serif;
+  font-style: italic;
+  font-size: 14px;
 }

@@ -8,28 +8,45 @@
 </head>
 <body>
   <header>
-    <div class="col-xs-3">
-      <div class="circle">
-        <br />
-        Just Run
-        <br />
-        Yo Damn
-        <br />
-        Gym Brah
+    <div class="container">
+      <div class="col-xs-3">
+        <%= link_to root_path, class: 'logo' do %>
+          <div class="circle">
+            <br />
+            Just Run
+            <br />
+            Yo Damn
+            <br />
+            Gym Brah
+          </div>
+        <% end %>
       </div>
-    </div>
-    <div class="col-xs-4 slogan">
-      Splurting out unsolicited advice about running gyms since 1956
-    </div>
-    <div class="col-xs-5 links">
-      <%= link_to 'Contribute', '#' %>
-      <%= link_to 'About', '#' %>
+      <div class="col-xs-4 slogan">
+        Splurting out unsolicited advice about running gyms since 1956
+      </div>
+      <div class="col-xs-5 links text-right">
+        <%= link_to 'Contribute', new_quote_path %>
+        <%= link_to 'About', '#' %>
+      </div>
     </div>
   </header>
   <hr />
   <br class="clear" />
 
-<%= yield %>
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="col-xs-6 text-white">
+        <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
+      </div>
+      <div class="col-xs-6 text-white text-right footer-blurb">
+        Proudly hacked in Alexandria, VA by Matt Verlaque<br />
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>

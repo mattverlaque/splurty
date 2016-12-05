@@ -49,3 +49,5 @@ gem 'rails_12factor', group: :production
 gem 'bootstrap', '~> 4.0.0.alpha5'
 
 gem 'sprockets'
+
+gem 'simple_form'
