@@ -86,9 +86,11 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: auto;
+  min-height: 60px;
   background-color: #f7901e;
   padding-top: 10px;
+  padding-bottom: 10px;
   a {
     color: white;
     font-family: 'quicksanditalic', sans-serif;
@@ -97,12 +99,17 @@ body {
   }
 }
 
-.text-right {
-  text-align: right;
-}
-
 .footer-blurb {
   font-family: 'quicksanditalic', sans-serif;
   font-style: italic;
   font-size: 14px;
+  padding-top: 5px;
+}
+
+.splurty-intro {
+  color: #ccc;
+}
+
+::selection {
+  background-color: #f7901e;
 }

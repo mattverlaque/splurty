@@ -1,2 +1,13 @@
-<h1><%= @quote.saying %></h1>
-<h2><%= @quote.author %></h2>
+<div class="container">
+  <div class="col-xs-12">
+    <p>
+      <span class="splurty-intro">SPLURTY / No. <%= @quote.id %></span>
+      Here's the <em>best unsolicited motivational quote</em> you can get!
+    </p>
+    <h1><%= @quote.saying %></h1>
+    <h2 class="text-xs-right"><%= @quote.author %></h2>
+    <br class="clear" />
+    <br />
+    <br />
+  </div>
+</div>

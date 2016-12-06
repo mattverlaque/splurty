@@ -21,10 +21,10 @@
           </div>
         <% end %>
       </div>
-      <div class="col-xs-4 slogan">
+      <div class="col-sm-4 hidden-sm-down slogan">
         Splurting out unsolicited advice about running gyms since 1956
       </div>
-      <div class="col-xs-5 links text-right">
+      <div class="col-xs-8 col-sm-5 col-xs-offset-1 col-sm-offset-0 links text-right">
         <!-- Button trigger modal -->
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
         <%= link_to 'About', about_path %>
@@ -42,8 +42,8 @@
         </div>
         <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
-            <%= f.input :saying %><br />
-            <%= f.input :author %><br />
+            <%= f.input :saying, label: "Enter your quote:", placeholder: "What is the quote that you'd like to add?" %><br />
+            <%= f.input :author, label: "Enter the author:", placeholder: "Who claims such an epic utterance?" %><br />
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -69,11 +69,11 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="col-xs-6 text-white">
+      <div class="col-sm-12 col-md-6 text-white text-xs-center text-md-left align-middle">
         <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
       </div>
-      <div class="col-xs-6 text-white text-right footer-blurb">
-        Proudly hacked in Alexandria, VA by Matt Verlaque<br />
+      <div class="col-sm-12 col-md-6 text-white text-xs-center text-md-right footer-blurb align-middle">
+        Proudly hacked in Virginia by Matt Verlaque<br />
       </div>
     </div>
   </footer>
