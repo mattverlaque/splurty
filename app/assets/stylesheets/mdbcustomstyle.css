@@ -1,0 +1,166 @@
+/* YOUR CUSTOM STYLES */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+
+.rygorange-skin {
+  /* Select colors */
+}
+
+.rygorange-skin .primary-color, .rygorange-skin .stepper li.active a .circle, .stepper li.active a .rygorange-skin .circle, .rygorange-skin .stepper li.completed a .circle, .stepper li.completed a .rygorange-skin .circle {
+  background-color: #353535 !important;
+}
+
+.rygorange-skin .navbar {
+  background-color: #f7901e;
+}
+
+.rygorange-skin .page-footer {
+  background-color: #4f4f4f;
+}
+
+.rygorange-skin .side-nav {
+  background-color: #2e3f48;
+}
+
+.rygorange-skin .side-nav .logo-wrapper {
+  background: url("../custimg/menubg.png") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.rygorange-skin .side-nav .sn-avatar-wrapper img {
+  border: 3px solid #4f4f4f;
+}
+
+.rygorange-skin .side-nav .social a:hover {
+  background-color: #f7901e;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.rygorange-skin .side-nav .collapsible li {
+  background-color: transparent;
+}
+
+.rygorange-skin .side-nav .collapsible li a.active {
+  background-color: #4f4f4f;
+}
+
+.rygorange-skin .side-nav .collapsible li a:hover {
+  background-color: #f7901e;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.rygorange-skin .side-nav .fa {
+  color: rgba(227, 242, 253, 0.64);
+}
+
+.rygorange-skin .navbar .navbar-nav .dropdown .dropdown-primary .dropdown-item:hover {
+  background-color: #686868;
+}
+
+.rygorange-skin .btn-primary {
+  background: #353535;
+}
+
+.rygorange-skin .btn-primary:hover, .rygorange-skin .btn-primary:focus {
+  background-color: #424242 !important;
+}
+
+.rygorange-skin .btn-primary.active {
+  background-color: #020202 !important;
+}
+
+.rygorange-skin .btn-secondary {
+  background: #3F729B;
+}
+
+.rygorange-skin .btn-secondary:hover, .rygorange-skin .btn-secondary:focus {
+  background-color: #467fad !important;
+}
+
+.rygorange-skin .btn-secondary.active {
+  background-color: #223d52 !important;
+}
+
+.rygorange-skin .btn-default,
+.rygorange-skin .card .btn-action {
+  background: #0F0F0F;
+}
+
+.rygorange-skin .btn-default:hover, .rygorange-skin .btn-default:focus,
+.rygorange-skin .card .btn-action:hover,
+.rygorange-skin .card .btn-action:focus {
+  background-color: #1c1c1c !important;
+}
+
+.rygorange-skin .btn-default.active,
+.rygorange-skin .card .btn-action.active {
+  background-color: black !important;
+}
+
+.rygorange-skin input[type="email"]:focus:not([readonly]), .rygorange-skin input[type="text"]:focus:not([readonly]), .rygorange-skin input[type="password"]:focus:not([readonly]), .rygorange-skin textarea.md-textarea:focus:not([readonly]) {
+  border-color: #757575;
+  box-shadow: 0 1px 0 0 #757575;
+}
+
+.rygorange-skin input[type="email"]:focus:not([readonly]) + label, .rygorange-skin input[type="text"]:focus:not([readonly]) + label, .rygorange-skin input[type="password"]:focus:not([readonly]) + label, .rygorange-skin textarea.md-textarea:focus:not([readonly]) + label {
+  color: #757575;
+}
+
+.rygorange-skin input[type=checkbox]:checked + label:before {
+  border-right: 2px solid #757575;
+  border-bottom: 2px solid #757575;
+}
+
+.rygorange-skin input[type=checkbox].filled-in:checked + label:before {
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.rygorange-skin input[type=checkbox].filled-in:checked + label:after {
+  background-color: #757575;
+  border-color: #757575;
+}
+
+.rygorange-skin .md-form .prefix.active {
+  color: #757575;
+}
+
+.rygorange-skin .dropdown-content li:not(.disabled) span {
+  color: #757575;
+}
+
+.rygorange-skin .top-nav-collapse {
+  background-color: #f7901e;
+}
+
+.rygorange-skin .carousel-multi-item .controls-top > a, .rygorange-skin .carousel-multi-item .carousel-indicators li, .rygorange-skin .carousel-multi-item .carousel-indicators li.active {
+  background-color: #757575;
+}
+
+.rygorange-skin .tag, .rygorange-skin .form-header, .rygorange-skin .card-header {
+  background-color: #7a7a7a;
+}
+
+@media (max-width: 736px) {
+    .hide-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 736px) {
+    .show-mobile {
+    display: none;
+  }
+}

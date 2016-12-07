@@ -9,7 +9,7 @@
 }
 
 /* Logo Circle CSS */
-.circle {
+.circlelogo {
     font-weight:bold;
     font-style: italic;
     position: relative;
@@ -116,4 +116,8 @@ body {
 
 .about-pic {
   margin-bottom: 6px;
+}
+
+.circle {
+  bg-color: #000;
 }
